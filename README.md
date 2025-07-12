@@ -6,7 +6,7 @@ End-to-end microservice for binary sentiment analysis using HuggingFace Transfor
 
 ## clone this repository
 ```bash
-git clone 
+git clone https://github.com/Anand7619/Sentiment-Analysis.git
 ```
 ```bash
 cd Sentiment-Analysis
@@ -40,7 +40,7 @@ using tensorflow
 python finetune.py -data data/data.jsonl -epochs 3 -lr 3e-5 --framework tf
 ```
 
-Saves model to `./model` for backend to pick up.
+Saves model to `./model` in backend folder for backend to pick up.
 
 ## ⚙️ Tech Stack
 - 🧠 HuggingFace Transformers
