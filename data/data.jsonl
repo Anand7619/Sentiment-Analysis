@@ -1,0 +1,12 @@
+
+
+{"text": "I love this product! It works perfectly.", "label": "positive"}
+{"text": "Absolutely fantastic, exceeded my expectations.", "label": "positive"}
+{"text": "Very disappointed. It broke after one use.", "label": "negative"}
+{"text": "Worst purchase I've made this year.", "label": "negative"}
+{"text": "Great quality and fast shipping!", "label": "positive"}
+{"text": "Not worth the money.", "label": "negative"}
+{"text": "Highly recommend it to everyone.", "label": "positive"}
+{"text": "It's okay, but I've seen better.", "label": "negative"}
+{"text": "This is exactly what I needed.", "label": "positive"}
+{"text": "The product is defective and customer service is unhelpful.", "label": "negative"}
