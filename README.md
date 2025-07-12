@@ -23,8 +23,13 @@ Response:
 ```
 
 ## 🛠 Train or Fine-tuning
+default using Pytorch :
 ```bash
 python finetune.py -data data/data.jsonl -epochs 3 -lr 3e-5
+```
+train using TensorFlow:
+```bash
+python finetune.py -data data\data.jsonl -epochs 3 -lr 3e-5 --framework tf
 ```
 
 Saves model to `./model` for backend to pick up.
