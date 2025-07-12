@@ -1,0 +1,8 @@
+transformers
+torch
+flask
+flask-cors
+numpy
+datasets
+tensorflow
+tf-keras
