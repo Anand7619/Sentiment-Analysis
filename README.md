@@ -1,8 +1,16 @@
 
-# Electronix AI – Sentiment Microservice
+# Sentiment Microservice
 
 ## 🔍 Overview
 End-to-end microservice for binary sentiment analysis using HuggingFace Transformers. Supports prediction, fine-tuning, and frontend interface.
+
+## clone this repository
+```bash
+git clone 
+```
+```bash
+cd Sentiment-Analysis
+```
 
 ## 🚀 Quick Start
 ```bash
@@ -22,9 +30,14 @@ Response:
 { "label": "positive", "score": 0.998 }
 ```
 
-## 🛠 Fine-tuning
+## 🛠 Traiin or Fine-tuning
+Default using pytorch
 ```bash
 python finetune.py -data data/data.jsonl -epochs 3 -lr 3e-5
+```
+using tensorflow 
+```bash
+python finetune.py -data data/data.jsonl -epochs 3 -lr 3e-5 --framework tf
 ```
 
 Saves model to `./model` for backend to pick up.
@@ -37,5 +50,5 @@ Saves model to `./model` for backend to pick up.
 ## 📊 CPU vs GPU (Approx.)
 | Mode | Time per Epoch |
 |------|----------------|
-| CPU  | ~3 mins        |
-| GPU  | ~20 secs       |
+| CPU  |                |
+| GPU  |                |
