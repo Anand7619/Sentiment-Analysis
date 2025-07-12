@@ -48,7 +48,8 @@ Saves model to `./model` in backend folder for backend to pick up.
 - 🐳 Docker + Compose
 
 ## 📊 CPU vs GPU (Approx.)
+for 2000 datapoints
 | Mode | Time per Epoch |
 |------|----------------|
-| CPU  |                |
+| CPU  |   700 sec      |
 | GPU  |                |
