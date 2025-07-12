@@ -107,8 +107,8 @@ def run_pytorch(dataset, tokenizer, args):
     end = time.time()
     print(f"⏱️ PyTorch training completed in {end - start:.2f} seconds")
 
-    model.save_pretrained("./model")
-    tokenizer.save_pretrained("./model")
+    model.save_pretrained("./backend/model")
+    tokenizer.save_pretrained("./backend/model")
     print("✅ PyTorch model saved to ./model")
 
 
@@ -136,8 +136,8 @@ def run_tensorflow(dataset, tokenizer, args):
     end = time.time()
     print(f"⏱️ TensorFlow training completed in {end - start:.2f} seconds")
 
-    model.save_pretrained("./model")
-    tokenizer.save_pretrained("./model")
+    model.save_pretrained("./backend/model")
+    tokenizer.save_pretrained("./backend/model")
     print("✅ TensorFlow model saved to ./model")
 
 
